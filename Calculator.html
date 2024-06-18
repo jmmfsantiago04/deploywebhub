@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet " href="calculator.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="logo">Project Hub</a>
+        <ul class="nav-links">
+            <li><a href="Calculator.html">Project 1</a></li>
+            <li><a href="RPS.html">Project 2</a></li>
+            <li><a href="TicTacToe.html">Project 3</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+<div class="calbody">
+       <div class="calculator"> 
+        <div class="display" id="display"></div>
+        <div class="buttons">
+            <button class="btn" onclick="appendNumber('1')">1</button>
+            <button class="btn" onclick="appendNumber('2')">2</button>
+            <button class="btn" onclick="appendNumber('3')">3</button>
+            <button class="btn" onclick="chooseOperation('+')">+</button>
+            <button class="btn" onclick="appendNumber('4')">4</button>
+            <button class="btn" onclick="appendNumber('5')">5</button>
+            <button class="btn" onclick="appendNumber('6')">6</button>
+            <button class="btn" onclick="chooseOperation('-')">-</button>
+            <button class="btn" onclick="appendNumber('7')">7</button>
+            <button class="btn" onclick="appendNumber('8')">8</button>
+            <button class="btn" onclick="appendNumber('9')">9</button>
+            <button class="btn" onclick="chooseOperation('*')">*</button>
+            <button class="btn" onclick="appendNumber('0')">0</button>
+            <button class="btn" onclick="appendNumber('.')">.</button>
+            <button class="btn" onclick="compute()">=</button>
+            <button class="btn" onclick="chooseOperation('/')">/</button>
+            <button class="btn" onclick="ClearDisplay()">C</button>
+            <button class="btn" onclick="DeleteNumber()">←</button>
+        
+        </div>
+    </div>
+</div>
+    <script src="calculator.js"></script>
+</body>
+</html>
